@@ -1,0 +1,25 @@
+.title-h5 {
+color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Card-Title {
+    box-shadow: 0px 0px 7.300000190734863px 0px rgba(102, 77, 255, 1);
+    margin-top:200px;
+    padding: 40px 19px;
+    border-radius: 16px;
+    width: 100%;
+}
+.Card-p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+}
+.slick-next {
+color: #664DFF;
+}
+.h44 {
+  font-size: 32px;
+    color: white;
+    font-weight: 500;
+    margin: 190px 0 -120px 0;
+}
