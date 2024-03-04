@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import CarouselSection from "./Components/Carosel/Carusel";
+import Heder from "./Components/Heder";
+import Integration from "./Components/Integration";
+import Application from "./Components/Application/Application";
+import Crosell from "./Components/CarousellCard/CrosellCard";
+import Partner from "./Components/Parntner/partner";
+import Footer from "./Components/Footer/Footer";
+import CaroselImage from "./Components/CarouselImage/CaroselImage";
+import Questions from "./Components/Questions/Questions";
+import ScrollSection from "./Components/Scroll/ScrollSection";
+import MainComponent from "./Components/MainComponent";
+import './media.css'
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+          <Heder/>
+          <Integration/>
+          <Crosell/>
+
+          <Application/>
+          <CarouselSection />
+          <Questions/>
+          <Partner/>
+          <MainComponent/>
+          <CaroselImage/>
+          <Footer/>
+      </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,44 @@
+.h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+.part-img {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+}
+.at {
+    margin: 17px 0 20px 0;
+}
+.svg {
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+}
+.part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hiro {
+
+    margin: 130px 0 100px 0;
+    position: relative;
+}
+.PartnerSection {
+    margin: 100px 0  140px 0;
+}
+.ten-partners {
+    background-image: url('../Assets/Ellipse.png');
+    position: absolute;
+   left: -20px;
+    border-radius: 10%;
+    width: 100%;
+    height: 200%;
+    background-position: center ;
+    top: -50px;
+}

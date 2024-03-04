@@ -1,0 +1,50 @@
+.hh5 {
+    color: #fff;
+    font-size: 20px;
+    margin: 9px 0;
+}
+.numberr {
+    color: rgb(129, 127, 127);
+}
+.in {
+    display: flex;
+    align-items: center;
+}
+.nomer{
+    color: #fff;
+    padding: 35px 0 10px 0px;
+}
+.nomerr {
+    color: #fff;
+}
+.map {
+    width: 100%;
+}
+.ds {
+    display: flex;
+}
+.footer-img {
+    width: 220px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.footer-h4 {
+    color: #fff;
+    margin-top: 11px;
+}
+.foter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    background-image: linear-gradient(to top, rgba(111, 76, 255, 1), rgba(111, 76, 255, 0));
+}
+.nav_a {
+    color:gray;
+    gap:15px;
+    font-size: 18px;
+    font-weight:400 ;
+}
