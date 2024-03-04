@@ -1,0 +1,60 @@
+.main-container {
+    height: 550px;
+    overflow: hidden;
+}
+
+.scrollable-container {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.scrollable-content {
+    width: 870px;
+    padding: 25px 10px;
+    margin: 0 auto;
+}
+.p_scrol {
+    box-shadow: 0px 0px 7.300000190734863px 0px rgba(102, 77, 255, 1);
+    padding: 15px 10px;
+    border-radius: 14px;
+    margin: 25px 0 25px 0;
+}
+
+.text-span {
+  color: rgba(102, 77, 255, 1);
+}
+
+.scroll {
+    width: 751px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 17px 0;
+}
+
+
+/*.scrollable-content::-webkit-scrollbar-thumb {*/
+/*    background-image: url('../Assets/ScrollBar.svg'); !* SVG для ползунка *!*/
+/*    background-size: cover; !* Растягиваем SVG на весь ползунок *!*/
+/*    border-radius: 9px; !* Скругление углов ползунка *!*/
+/*}*/
+
+/*.scrollable-content::-webkit-scrollbar-track {*/
+/*    background-color: rgba(255, 255, 255, 0.1);*/
+/*    border-radius: 9px;*/
+/*}*/
+/*.scrollable-content {*/
+/*    height: 650px;*/
+/*    overflow-y: scroll;*/
+/*    scrollbar-width: none;*/
+/*    -ms-overflow-style: none;*/
+
+
+/*    ::-webkit-scrollbar {*/
+/*        width: 8px;*/
+/*        height: 8px;*/
+/*    }*/
+/*    ::-webkit-scrollbar-thumb {*/
+/*        background: #666;*/
+/*        border-radius: 4px;*/
+/*    }*/
+/*}*/

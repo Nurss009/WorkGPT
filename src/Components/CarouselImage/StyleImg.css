@@ -1,0 +1,153 @@
+.image {
+    width:562px;
+    height: 346px;
+    background:linear-gradient(180deg, rgba(100, 75, 250, 0) 0%, #010314 100%),
+    linear-gradient(0deg, rgba(102, 77, 255, 0), rgba(102, 77, 255, 0));
+    border-radius: 20px;
+}
+.image:hover {
+    background-color:rgba(102, 77, 255, 1);
+    transition: 0.6s;
+    padding-bottom: 30px;
+}
+.teni-carousel {
+    margin: -891px -30px 0 0;
+    width: 50%;
+}
+.h4-team {
+    padding: 90px 0 40px 0;
+    width: 810px;
+    margin: 0 auto ;
+    font-size: 36px;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-position: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+.experience {
+    margin: 145px 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+.teni-right {
+    margin: -96px 2px -996px 981px ;
+    width: 35%;
+}
+.hover-text {
+    font-size: 16px;
+    margin-top: -45px;
+}
+
+.overlay-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.name-job {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: -115px;
+}
+
+.image {
+    width: 562px;
+    height: 346px;
+    background: linear-gradient(180deg, rgba(100, 75, 250, 0) 0%, #010314 100%),
+    linear-gradient(0deg, rgba(102, 77, 255, 0), rgba(102, 77, 255, 0));
+}
+
+.image:hover {
+    background-color: rgba(102, 77, 255, 1);
+    transition: 0.6s;
+    border-radius: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-position: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.hover-text {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.overlay-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -25px;
+
+}
+
+.experience {
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.Name-Card {
+    color: white;
+}

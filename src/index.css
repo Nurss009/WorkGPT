@@ -1,145 +1,169 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
 * {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
+
 body {
   background-color: black;
 }
 
 .hed {
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top:37px ;
+  margin-top: 37px;
 }
+
 .heder {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top:37px ;
+  margin-top: 37px;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Inter;
 }
+
 .silka {
   display: flex;
 }
+
 .nav-a {
   display: flex;
   gap: 45px;
 }
+
 .silk {
   display: flex;
-gap: 20px
+  gap: 20px;
 }
+
 .heder-Button {
-  background-color:rgba(111, 76, 255, 1);
+  background-color: rgb(111, 76, 255);
   color: white;
   border: none;
   padding: 15px 13px 15px 13px;
-  border-radius:32px ;
+  border-radius: 32px;
 }
+
 .nava {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
+
 a {
-  color:gray;
-  gap:15px;
+  color: gray;
+  gap: 15px;
   font-size: 20px;
-  font-weight:400 ;
+  font-weight: 400;
 }
+
 .nav_a {
   text-decoration: none;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
 }
+
 .col-2 {
   width: 16.66%;
-  padding:15px;
+  padding: 15px;
 }
+
 .col-5 {
-  width:41.67%
+  width: 41.67%;
 }
+
 .col-6 {
   width: 50%;
   padding: 15px;
 }
+
 .col-7 {
   width: 58.33%;
   padding: 15px;
 }
+
 .col-12 {
   width: 100%;
   padding: 15px;
 }
+
 button {
   cursor: pointer;
 }
+
 .foto {
-width: 150%;
+  width: 150%;
   margin-left: -132px;
   position: relative;
-z-index: 1;
+  z-index: 1;
 }
+
 .h2-top {
   color: white;
   font-size: 48px;
   width: 646px;
 }
+
 .text {
   margin-top: 290px;
   position: absolute;
   z-index: 2;
 }
+
 .ten {
   margin-left: -490px;
   width: 120%;
   margin-top: -410px;
-
 }
+
 .ten-foto {
   margin: -490px 10px -59px -240px;
   width: 146%;
 }
+
 .p-top {
- color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 22px;
   width: 646px;
-
 }
+
 .h3-px32 {
   font-size: 32px;
   color: #fff;
   margin: 100px 0;
 }
-h3,p {
+
+h3, p {
   color: #fff;
 }
+
 .logoburger {
   display: none;
 }
+
 .burger-menu {
   display: none;
   position: fixed;
@@ -147,7 +171,7 @@ h3,p {
   left: 0;
   width: 70%;
   height: 100%;
-  background-color: rgba(30, 30, 30, 1);
+  background-color: rgb(30, 30, 30);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -171,5 +195,4 @@ h3,p {
   margin-left: 20px;
 }
 
-
-
+/*# sourceMappingURL=index.css.map */
